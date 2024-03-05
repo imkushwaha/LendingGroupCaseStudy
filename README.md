@@ -1,5 +1,14 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Group Case Study
+
+The Consumer Finance company is the largest online loan marketplace,
+facilitating personal loans, business loans, and financing of medical
+procedures. Borrowers can easily access lower interest rate loans through a
+fast-online interface.
+
+- Lending loans to ‘risky’ applicants is the largest source of financial loss (called credit loss).
+- If one can identify these risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss.
+- The company wants to understand the driving factors (or driver variables)behind loan default, i.e., the variables which are strong indicators of default.
+- Identification of such applicants’ using EDA is the aim of this case study.
 
 
 ## Table of Contents
@@ -8,45 +17,32 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- Project involves analyzing past loan applicant data to identify factors indicating whether an applicant is likely to default. By conducting exploratory data analysis (EDA). Our aim to minimize credit loss and improve risk assessment in lending.
+- The background of our project lies in the context of the consumer finance industry, specifically in lending various types of loans to urban customers. 
+- Our project seeks to mitigate financial losses in lending by identifying factors contributing to loan defaults. Through data analysis, it aims to improve risk assessment, enabling more informed lending decisions and minimizing credit loss for the company.
+- The dataset being used contains information about past loan applicants, including various features.
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- Loan amount should low.
+- Interest rate should also under 10%.
+- Annual income of applicant should high.
+- Grade should other than B, C, D
+- Loan should not be granted for purpose of debt consolidation.
+- Employee Working experience should high.
+- Applicant should have zero derogatory public records.
+- Number of public record bankruptcies should low (0 or 1).
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.11.4
+- Pandas - version 1.5.3
+- Seaborn - version 0.12.2
+- Matplotlib - version 3.7.1
+- missingno - version 0.4.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- This Lending Group Case study is a part of my assignment for Post Graduate Diploma Degree in AI & ML at IIIT-Bangalore
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@imkushwaha] - feel free to contact me!
